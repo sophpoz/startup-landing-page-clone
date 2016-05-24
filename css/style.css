@@ -5,16 +5,15 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
 div {
-	border: 1px solid chocolate;
+	/*border: 1px solid chocolate;*/
 }
 
 .content {
-	padding: 0px 15px;
+	padding: 5px 15px;
 
 }
 .top-navigation {
