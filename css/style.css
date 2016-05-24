@@ -1,0 +1,22 @@
+body {
+	background-color: LightGray;
+}
+div: {
+	border: 1px solid chocolate;
+
+}
+.content {
+
+}
+.top-navigation {
+	float:right;
+}
+.top-navigation .links li{
+	display: inline-block;
+}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
