@@ -13,7 +13,7 @@ div {
 }
 
 .content {
-	padding: 5px 15px;
+	padding: 15px;
 
 }
 .top-navigation {
@@ -22,7 +22,6 @@ div {
 }
 .top-navigation .content {
 	width: 970px;
-	height:70px;
 	margin: 0 auto;
 }
 .top-navigation .links{
@@ -40,7 +39,7 @@ div {
 	float:right;
 	margin:1em;
 	padding-left:3em;
-	padding-right:3em;
+	
 }
 .links li:hover {
 	color:#4c5058;
@@ -60,6 +59,11 @@ ul{
 }
 .introduction {
 	text-align:center;
+	width:100%;
+	background-image:url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding: 9em 0;
 	
 }
 .introduction .learnmore {
@@ -85,11 +89,32 @@ ul{
     font-weight: 300;
     letter-spacing: 0.03em;
 }
-.introduction h1 {
-    margin-top: -24.5rem;
-    font-size: 3.125rem;
+.icons {
+	padding: 4em 0;
 }
-.introduction h3 {
-    margin-top: -1.25rem;
-    font-size: 1.563rem;
+.iconheader {
+	text-align: center;
+	margin: 1.625rem 0 3.125rem;
 }
+.device {
+	width: 33%;
+	text-align: right;
+	display: inline-block;
+}
+.coffee {
+	width: 33%;
+	text-align: center; 
+	display: inline-block;
+}
+.refill {
+	width: 33%;
+	text-align:left;
+	display: inline-block;
+
+}
+
+
+
+
+
+
