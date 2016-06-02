@@ -7,27 +7,26 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
 }
 div {
 	/*border: 1px solid chocolate;*/
+}
+ul {
+	margin:0;
+	padding:0;
 }
 
 .content {
 	padding: 15px;
 	margin: 0 auto;
+	width: 970px;
 
 }
 .top-navigation {
 	background-color:white;
 	position: fixed;
 	width: 100%;
-
-}
-.top-navigation .content {
-	width: 970px;
-	margin: 0 auto;
-}
-
 }
 .links li{
 	display: inline-block;
@@ -64,10 +63,9 @@ li {
 	color:#4c5058;
 	font-weight:500;
 }
-ul{
-	display: inline-block;
+ul {
+	display: block;
 	list-style-type: none;
-	margin-top: 1em;
 	margin-bottom: -1.5em;
 	
 }
@@ -110,26 +108,18 @@ ul{
 	text-align: center;
 	margin: 1.625rem 0 3.125rem;
 }
-.device {
+.headeritem {
 	width: 33%;
-	text-align: right;
 	display: inline-block;
-}
-.coffee {
-	width: 33%;
-	text-align: center; 
-	display: inline-block;
-}
-.refill {
-	width: 33%;
-	text-align:left;
-	display: inline-block;
-
+	text-align:center;
 }
 .social hr{
 	border:0;
 	border-top: 1px solid #eaebec;
 	margin: 1.313rem 0;
+}
+.social {
+	text-align:center;
 }
 hr {
 	display:block;
@@ -140,18 +130,45 @@ hr {
 }
 h4{
 	text-align: center;
+	margin-bottom:0;
 }
 .social .fontawesome > li {
-	border-radius: 1.25 rem;
+	border-radius: 50%;
 	width: 2.5em;
 	height:2.5rem;
 	display: inline-block;
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
-	text-align: center;
 
 }
 .facebook, .twitter, .instagram > li {
 	display:inline-block;
+	box-sizing: border-box;
+}
+.twitter {
+	color:#55acee;
+}
+.facebook, .instagram {
+	color:#3f729b;
+}
+.social .fontawesome > li:hover {
+	cursor: pointer;
+}
+h1, h2, h3, h4 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 48px;
+}
+h3 {
+	font-size: 24px
+}
+.copy {
+	font-size:14px;
+	font-weight:300;
+	margin-top: 5em;
+}
+footer {
+	padding-bottom: 150px;
 }
